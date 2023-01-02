@@ -1,0 +1,1561 @@
+body{
+    background-color: #131c2e;
+}
+/* start nav */
+nav{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+/* end nav */
+/* start contanier */
+.contanier{
+    background-image: url(./photos/bg_3.jpg);
+    background-size: cover;
+    height: 120vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.6;
+}
+.header ul li img{
+    padding-right: 600px;
+}
+.header ul li{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(209, 199, 199);
+}
+.header ul li .active{
+    border-bottom: 2px solid rgb(209, 199, 199);
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.text {
+    padding-top: 150px;
+    font-weight: 900;
+    color: rgb(209, 199, 199);
+}
+.text .world{
+    padding-right: 200px;
+    font-size: 60px;
+
+}
+.text .event{
+    padding-right: 340px;
+    font-size: 60px;
+}
+.text .lorem-first{
+    margin-left: 500px;
+    padding-right: 100px
+    
+}
+.text .lorem-second{
+    margin-left: 400px;
+    padding-right: 160px
+}
+.team-vs {
+    background-color: #0d0f13;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -80px;
+    position: relative;
+}
+.team-vs .team1 .team-details a ,
+.team-vs .team2 .team-details a{
+    text-decoration: none;
+    color: white;
+}
+.team-vs .team2 {
+    padding: 30px;
+}
+.team-vs .team1 img{
+    width: 150px; 
+    /* padding-bottom: 50px; */
+}
+.team-vs .team2 img{
+    width: 200px;
+    /* padding-top: 100px; */
+}
+.team-vs .team2{
+    clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+    background: #ee1e46;
+}
+/* end contanier */
+/* start latestnews */
+.title-section .heading {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    padding-left: 20px;
+    border-left: 10px solid #ee1e46;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.latestnews .post-entry {
+    position: relative;
+    overflow: hidden;
+}
+.latestnews .post-entry .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    z-index: 1;
+}
+.latestnews .post-entry .caption .caption-inner {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+.latestnews .post-entry .caption .caption-inner h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.latestnews .post-entry .author .texts h4,
+.latestnews .post-entry .author .texts span {
+    margin: 0;
+    line-height: 1;
+    font-size: 14px;
+    color: #fff;
+}
+/* end latestnews */
+/* start videos */
+.videosection{
+    background-color: #131c2e;
+}
+.videosection .button button{
+    color: white;
+    background-color: #0f1c38;
+    border: none;
+}
+.videosection .slider .first{
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.videosection .slider .first .image img{
+    background-color: #0d0f13;
+    opacity: 0.8;
+    width: 273px;
+}
+.videosection .slider .active{
+    display: block !important;
+}
+.videosection .slider .first .caption{
+    color: white;
+}
+.videosection .slider .first  .icon{
+    position: absolute;
+    bottom: 5px;
+    width: 232.5px;
+    font-size: 30px;
+    color: rgb(204, 23, 23);
+    padding-left: 20px;
+}
+.videosection .slider .first .caption p{
+    position: absolute;
+    bottom: 20px;
+    width: 232.5px;
+    font-size: x-large;
+    text-align: center;
+    padding-left: 20px;
+}
+.videosection .slider .first{
+    display:none;
+}
+/* end videos */
+/* start blog */
+.blog{
+    background-color: #131c2e;
+}
+.blog .cards .card{
+    background-color: #131c2e;
+    border: none;
+}
+.blog .cards .card .card-body{
+    color: white;
+}
+.cards .card img{
+    border-radius: 4px;
+}
+.cards .card-body .card-title{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.cards .card-body .card-text1{
+    font-size: 20px;
+}
+.cards .card-body a{
+    text-decoration: none;
+    color: rgb(204, 23, 23) ;
+}
+/* end blog */
+/* start next match */
+.next-match  .hole{
+    border: 1px solid gray;
+    padding-left: 0;
+}
+.next-match .header h3{
+    color: white;
+    background-color: #ee1e46;
+    width: 568px;
+    padding: 15px 0px 15px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.next-match .body img{
+    padding-top: 40px;
+    width: 120px;
+}
+.next-match .body span{
+    color: #fff;
+    background-color: #ee1e46;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.next-match .body h3{
+    color: #fff;
+    padding-top: 20px;
+}
+.next-match .body .caption h6{
+    color:#ee1e46;
+    text-align: center;
+}
+/* end next match */
+/* start footer */
+footer{
+    background-color: rgb(29, 27, 27);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .fotsections{
+    padding-left: 150px;
+}
+footer .fotsections h3{
+    color: white;
+}
+.fotsections ul a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.74);
+    line-height: 3;
+}
+.fotsections .contact p{
+    color: rgba(245, 245, 245, 0.74);
+}
+.fotsections .contact h6{
+    color: rgba(245, 245, 245, 0.904);
+}
+footer .fotsections .Matches{
+    padding-top: 10px;
+}
+footer .fotsections .Social{
+    padding-bottom: 30px;
+}
+footer .fotsections .subscribe p{
+    color: rgba(245, 245, 245, 0.74);
+}
+footer .fotsections .subscribe .email{
+    border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+    width: 240px;
+    padding-bottom: 10px;
+}
+footer .fotsections .subscribe .email input{
+    background: none;
+    border: none;
+    padding-left: 10px;
+}
+footer .fotsections .subscribe .email button{
+    background: none;
+    border: none;
+    color: white;
+}
+footer .fotsections .copyright{
+    color: rgba(245, 245, 245, 0.74);
+    width: 100%;
+    padding-right: 200px;
+}
+footer .fotsections .copyright span{
+    color: #ee1e46;
+}
+/* end footer */
+/* responsive for media betwwen 1024 and 768 */
+@media (max-width:1024px) and (min-width:768px){
+    /* start nav */
+    nav{
+        background-color: rgb(0, 0, 0);
+        position: relative;
+    }
+    .contanier{
+        background-image: url(./photos/bg_3.jpg);
+        background-size: cover;
+        height: 120vh;
+        padding-left: 15px;
+        padding-right: 15px;
+        opacity: 0.6;
+    }
+    .header ul li img{
+        padding-right: 100px;
+    }
+    .header ul li{
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+    .header ul li a{
+        text-decoration: none;
+        color: rgb(209, 199, 199);
+    }
+    .header ul li .active{
+        border-bottom: 2px solid rgb(209, 199, 199);
+        padding-bottom: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .text {
+        padding-top: 100px;
+        font-weight: 900;
+        color: rgb(209, 199, 199);
+    }
+    .text .world{
+        padding-right: 100px;
+        margin-bottom: 0px;
+        font-size: 50px;
+    
+    }
+    .text .event{
+        padding-right: 220px;
+        font-size: 50px;
+    }
+    .text .lorem-first{
+        margin-left: 385px;
+        padding-right: 100px;
+        text-align: left;
+        
+    }
+    .text .lorem-second{
+        margin-left: 385px;
+        padding-right: 160px;
+        text-align: left;
+    }
+    /* end nav */
+    /* start contanier */
+    .team-vs {
+        background-color: #0d0f13;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .team-vs .team1 .team-details a ,
+    .team-vs .team2 .team-details a{
+        text-decoration: none;
+        color: white;
+    }
+    .team-vs .team1 ,
+    .team-vs .team2 {
+        padding: 0px 30px 30px 30px;
+    }
+    .team-vs .team1 img{
+        width: 50px; 
+    }
+    .team-vs .team2 img{
+        width: 70px;
+    }
+    .team-vs .team2{
+        clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+        background: #ee1e46;
+        padding-top: 15px;
+    }
+    /* end contanier */
+    /* start next match */
+    .next-match  .hole{
+        border: 1px solid gray;
+        padding-left: 0;
+    }
+    .next-match .header h3{
+        color: white;
+        background-color: #ee1e46;
+        width: 360px;
+        padding: 15px 0px 15px 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .next-match .body img{
+        width: 120px;
+    }
+    .next-match .body span{
+        color: #fff;
+        background-color: #ee1e46;
+        margin-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    .next-match .body .firstf{
+        padding-top: 65px;
+    }
+    .next-match .body h3{
+        color: #fff;
+        padding-top: 20px;
+    }
+    .next-match .body .caption h6{
+        color:#ee1e46;
+        text-align: center;
+    }
+    /* end next match */
+    /* start videos */
+    .videosection{
+        background-color: #131c2e;
+    }
+    .videosection .button button{
+        color: white;
+        background-color: #0f1c38;
+        border: none;
+    }
+    .videosection .slider .first{
+        position: relative;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .videosection .slider .first .image img{
+        background-color: #0d0f13;
+        opacity: 0.8;
+        width: 168px;
+    }
+    .videosection .slider .active{
+        display: block;
+    }
+    .videosection .slider .first .caption{
+        color: white;
+    }
+    .videosection .slider .first  .icon{
+        position: absolute;
+        bottom: 5px;
+        width: 168.5px;
+        font-size: 20px;
+        color: rgb(204, 23, 23);
+        padding-left: 10px;
+    }
+    .videosection .slider .first .caption p{
+        position: absolute;
+        bottom: 20px;
+        width: 168.5px;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 5px;
+    }
+    .videosection .slider .second{
+        display:none;
+    }
+    /* end videos */
+    /* start blog */
+    .blog{
+        background-color: #131c2e;
+    }
+    .blog .cards .card{
+        background-color: #131c2e;
+        border: none;
+        width: 335px;
+    }
+    .blog .cards .card .card-body{
+        color: white;
+        padding: 0px;
+    }
+    .cards .card img{
+        padding-right: 5px;
+        padding-top: 5px;
+        height: 224px;
+    }
+    .cards .card-body .card-title{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .cards .card-body .card-text1{
+        font-size: 20px;
+    }
+    .cards .card-body a{
+        text-decoration: none;
+        color: rgb(204, 23, 23) ;
+    }
+    /* end blog */
+    /* start footer */
+    footer{
+        background-color: rgb(29, 27, 27);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    footer .fotsections{
+        padding-left: 80px;
+    }
+    footer .fotsections h3{
+        color: white;
+    }
+    .fotsections ul a{
+        text-decoration: none;
+        color: rgba(245, 245, 245, 0.74);
+        line-height: 3;
+    }
+    .fotsections .contact p{
+        color: rgba(245, 245, 245, 0.74);
+    }
+    .fotsections .contact h6{
+        color: rgba(245, 245, 245, 0.904);
+    }
+    footer .fotsections .Matches{
+        padding-top: 10px;
+    }
+    footer .fotsections .Social{
+        padding-bottom: 30px;
+    }
+    footer .fotsections .subscribe p{
+        color: rgba(245, 245, 245, 0.74);
+    }
+    footer .fotsections .subscribe .email{
+        border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+        width: 240px;
+        padding-bottom: 10px;
+    }
+    footer .fotsections .subscribe .email input{
+        background: none;
+        border: none;
+        padding-left: 10px;
+    }
+    footer .fotsections .subscribe .email button{
+        background: none;
+        border: none;
+        color: white;
+    }
+    footer .fotsections .copyright{
+        color: rgba(245, 245, 245, 0.74);
+        width: 100%;
+        padding-right: 100px;
+    }
+    footer .fotsections .copyright span{
+        color: #ee1e46;
+    }
+    /* end footer */
+}
+/* responsive for media betwwen 767 and 425 */
+@media (max-width:767px) and (min-width:425px){
+       /* start nav */
+       nav{
+        background-color: rgb(0, 0, 0);
+        width: 570px;
+        position: relative;
+    }
+    .contanier{
+        background-image: url(./photos/bg_3.jpg);
+        background-size: cover;
+        height: 120vh;
+        width: 570px;
+        padding-left: 15px;
+        padding-right: 15px;
+        opacity: 0.6;
+    }
+    .header ul li img{
+        padding-right: 60px;
+    }
+    .header ul li{
+        padding-top: 30px;
+        padding-right: 5px;
+    }
+    .header ul li a{
+        padding: 8px;
+        text-decoration: none;
+        color: rgb(209, 199, 199);
+    }
+    .header ul li .active{
+        border-bottom: 2px solid rgb(209, 199, 199);
+        padding-bottom: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .text {
+        padding-top: 70px;
+        font-weight: 700;
+        color: rgb(209, 199, 199);
+    }
+    .text .world{
+        padding-right: 40px;
+        margin-bottom: 0px;
+        font-size: 50px;
+    
+    }
+    .text .event{
+        padding-right: 155px;
+        font-size: 50px;
+    }
+    .text .lorem-first{
+        margin-left: 260px;
+        padding-right: 50px;
+        text-align: left;
+        
+    }
+    .text .lorem-second{
+        margin-left: 260px;
+        padding-right: 105px;
+        text-align: left;
+    }
+    /* end nav */
+    /* start contanier */
+    .team-vs {
+        background-color: #0d0f13;
+        overflow: hidden;
+        border-radius: 10px;
+        width: 485px;
+        margin-left: 30px;
+        margin-top: -80px;
+        position: relative;
+    }
+    .team-vs .team1 .team-details a ,
+    .team-vs .team2 .team-details a{
+        text-decoration: none;
+        color: white;
+    }
+    .team-vs .team1 ,
+    .team-vs .team2 {
+        padding: 0px 30px 30px 30px;
+    }
+    .team-vs .team1 img{
+        margin-left: 50px;
+        width: 70px;
+    }
+    .team-vs .team2 img{
+        width: 100px;
+    }
+    .team-vs .team2{
+        clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+        background: #ee1e46;
+        padding-top: 15px;
+    }
+    /* end contanier */
+    /* start latestnews */
+    .title-section .heading {
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        margin-left: 200px;
+        padding-left: 20px;
+        border-left: 10px solid #ee1e46;
+    }
+    .no-gutters {
+        margin-right: 0;
+        margin-left: 0px;
+        width: 460px;
+        padding-left: 80px;
+    }
+    .latestnews .post-entry {
+        position: relative;
+        overflow: hidden;
+    }
+    .latestnews .post-entry .caption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        z-index: 1;
+    }
+    .latestnews .post-entry .caption .caption-inner {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        right: 30px;
+    }
+    .latestnews .post-entry .caption .caption-inner h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .latestnews .post-entry .author .texts h4,
+    .latestnews .post-entry .author .texts span {
+        margin: 0;
+        line-height: 1;
+        font-size: 14px;
+        color: #fff;
+    }
+    /* end latestnews */
+    /* start next match */
+    .next-match {
+        width: 570px;
+    }
+    .next-match  .hole{
+        border: 1px solid gray;
+        padding-left: 0;
+    }
+    .next-match .header h3{
+        color: white;
+        background-color: #ee1e46;
+        width: 283px;
+        padding: 15px 0px 15px 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .next-match .body img{
+        width: 90px;
+    }
+    .next-match .body span{
+        color: #fff;
+        background-color: #ee1e46;
+        margin-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    .next-match .body .firstf{
+        padding-top: 65px;
+    }
+    .next-match .body h3{
+        color: #fff;
+        padding-top: 20px;
+    }
+    .next-match .body .caption h6{
+        color:#ee1e46;
+        text-align: center;
+    }
+    /* end next match */
+    /* start videos */
+    .videosection{
+        background-color: #131c2e;
+        width: 570px;
+    }
+    .videosection .no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+        width: 500px;
+        padding-left: 25px;
+    }
+    .videosection .button{
+        padding-right: 50px;
+    }
+    .videosection .button button{
+        color: white;
+        background-color: #0f1c38;
+        border: none;
+    }
+    .videosection .slider .first{
+        position: relative;
+        /* padding-left: 0px; */
+        /* padding-right: 0px; */
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .videosection .slider .first .image img{
+        background-color: #0d0f13;
+        opacity: 0.8;
+        /* margin-right: 20px; */
+        width: 118px;
+        height: 200px;
+    }
+    .videosection .slider .active{
+        display: block;
+    }
+    .videosection .slider .first .caption{
+        color: white;
+    }
+    .videosection .slider .first  .icon{
+        position: absolute;
+        bottom: 5px;
+        width: 100px;
+        font-size: 20px;
+        color: rgb(204, 23, 23);
+        padding-left: 10px;
+    }
+    .videosection .slider .first .caption p{
+        position: absolute;
+        bottom: 20px;
+        width: 105px;
+        font-size: 11px;
+        text-align: center;
+        padding-left: 5px;
+    }
+    .videosection .slider .second{
+        display:none;
+    }
+    /* end videos */
+    /* start blog */
+    .blog{
+        background-color: #131c2e;
+        width: 570px;
+    }
+    .blog .cards .card{
+        background-color: #131c2e;
+        border: none;
+        width: 500px;
+        margin-left: 25px;
+        padding-left: 25px;
+    }
+    .blog .cards .card .card-body{
+        color: white;
+        padding: 0px;
+    }
+    .cards .card img{
+        padding-right: 5px;
+        padding-top: 5px;
+        height: 224px;
+    }
+    .cards .card-body .card-title{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .cards .card-body .card-text1{
+        font-size: 20px;
+    }
+    .cards .card-body a{
+        text-decoration: none;
+        color: rgb(204, 23, 23) ;
+    }
+    /* end blog */
+    /* start footer */
+    footer{
+        background-color: rgb(29, 27, 27);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 570px;
+    }
+    footer .fotsections{
+        padding-left: 0px;
+    }
+    footer .fotsections h3{
+        color: white;
+        padding-left: 13px;
+    }
+    .fotsections ul a{
+        text-decoration: none;
+        color: rgba(245, 245, 245, 0.74);
+        line-height: 3;
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .fotsections .contact p{
+        color: rgba(245, 245, 245, 0.74);
+    }
+    .fotsections .contact h6{
+        color: rgba(245, 245, 245, 0.904);
+    }
+    footer .fotsections .Matches{
+        padding-top: 3px;
+    }
+    footer .fotsections .Social{
+        padding-bottom: 40px;
+    }
+    footer .fotsections .subscribe p{
+        color: rgba(245, 245, 245, 0.74);
+    }
+    footer .fotsections .subscribe .email{
+        border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+        width: 240px;
+        padding-bottom: 10px;
+    }
+    footer .fotsections .subscribe .email input{
+        background: none;
+        border: none;
+        padding-left: 10px;
+    }
+    footer .fotsections .subscribe .email button{
+        background: none;
+        border: none;
+        color: white;
+    }
+    footer .fotsections .copyright{
+        color: rgba(245, 245, 245, 0.74);
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    footer .fotsections .copyright span{
+        color: #ee1e46;
+    }
+    /* end footer */
+}
+/* responsive for media betwwen 424 and 375 */
+@media (max-width:424px) and (min-width:375px){
+           /* start nav */
+           nav{
+            background-color: rgb(0, 0, 0);
+            width: 570px;
+            position: relative;
+        }
+        .contanier{
+            background-image: url(./photos/bg_3.jpg);
+            background-size: cover;
+            height: 120vh;
+            width: 570px;
+            padding-left: 15px;
+            padding-right: 15px;
+            opacity: 0.6;
+        }
+        .header ul li img{
+            padding-right: 60px;
+        }
+        .header ul li{
+            padding-top: 30px;
+            padding-right: 5px;
+        }
+        .header ul li a{
+            padding: 8px;
+            text-decoration: none;
+            color: rgb(209, 199, 199);
+        }
+        .header ul li .active{
+            border-bottom: 2px solid rgb(209, 199, 199);
+            padding-bottom: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .text {
+            padding-top: 70px;
+            font-weight: 700;
+            color: rgb(209, 199, 199);
+        }
+        .text .world{
+            padding-right: 40px;
+            margin-bottom: 0px;
+            font-size: 50px;
+        
+        }
+        .text .event{
+            padding-right: 155px;
+            font-size: 50px;
+        }
+        .text .lorem-first{
+            margin-left: 260px;
+            padding-right: 50px;
+            text-align: left;
+            
+        }
+        .text .lorem-second{
+            margin-left: 260px;
+            padding-right: 105px;
+            text-align: left;
+        }
+        /* end nav */
+        /* start contanier */
+        .team-vs {
+            background-color: #0d0f13;
+            overflow: hidden;
+            border-radius: 10px;
+            width: 485px;
+            margin-left: 30px;
+            margin-top: -80px;
+            position: relative;
+        }
+        .team-vs .team1 .team-details a ,
+        .team-vs .team2 .team-details a{
+            text-decoration: none;
+            color: white;
+        }
+        .team-vs .team1 ,
+        .team-vs .team2 {
+            padding: 0px 30px 30px 30px;
+        }
+        .team-vs .team1 img{
+            margin-left: 50px;
+            width: 70px;
+        }
+        .team-vs .team2 img{
+            width: 100px;
+        }
+        .team-vs .team2{
+            clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+            background: #ee1e46;
+            padding-top: 15px;
+        }
+        /* end contanier */
+        /* start latestnews */
+        .title-section .heading {
+            color: #fff;
+            font-size: 20px;
+            position: relative;
+            margin-left: 200px;
+            padding-left: 20px;
+            border-left: 10px solid #ee1e46;
+        }
+        .no-gutters {
+            margin-right: 0;
+            margin-left: 0px;
+            width: 460px;
+            padding-left: 80px;
+        }
+        .latestnews .post-entry {
+            position: relative;
+            overflow: hidden;
+        }
+        .latestnews .post-entry .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2;
+            z-index: 1;
+        }
+        .latestnews .post-entry .caption .caption-inner {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            right: 30px;
+        }
+        .latestnews .post-entry .caption .caption-inner h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+        }
+        .latestnews .post-entry .author .texts h4,
+        .latestnews .post-entry .author .texts span {
+            margin: 0;
+            line-height: 1;
+            font-size: 14px;
+            color: #fff;
+        }
+        /* end latestnews */
+        /* start next match */
+        .next-match {
+            width: 570px;
+        }
+        .next-match  .hole{
+            border: 1px solid gray;
+            padding-left: 0;
+        }
+        .next-match .header h3{
+            color: white;
+            background-color: #ee1e46;
+            width: 283px;
+            padding: 15px 0px 15px 20px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .next-match .body img{
+            width: 90px;
+        }
+        .next-match .body span{
+            color: #fff;
+            background-color: #ee1e46;
+            margin-right: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        .next-match .body .firstf{
+            padding-top: 65px;
+        }
+        .next-match .body h3{
+            color: #fff;
+            padding-top: 20px;
+        }
+        .next-match .body .caption h6{
+            color:#ee1e46;
+            text-align: center;
+        }
+        /* end next match */
+        /* start videos */
+        .videosection{
+            background-color: #131c2e;
+            width: 570px;
+        }
+        .videosection .no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+            width: 500px;
+            padding-left: 25px;
+        }
+        .videosection .button{
+            padding-right: 50px;
+        }
+        .videosection .button button{
+            color: white;
+            background-color: #0f1c38;
+            border: none;
+        }
+        .videosection .slider .first{
+            position: relative;
+            /* padding-left: 0px; */
+            /* padding-right: 0px; */
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .videosection .slider .first .image img{
+            background-color: #0d0f13;
+            opacity: 0.8;
+            /* margin-right: 20px; */
+            width: 118px;
+            height: 200px;
+        }
+        .videosection .slider .active{
+            display: block;
+        }
+        .videosection .slider .first .caption{
+            color: white;
+        }
+        .videosection .slider .first  .icon{
+            position: absolute;
+            bottom: 5px;
+            width: 100px;
+            font-size: 20px;
+            color: rgb(204, 23, 23);
+            padding-left: 10px;
+        }
+        .videosection .slider .first .caption p{
+            position: absolute;
+            bottom: 20px;
+            width: 105px;
+            font-size: 11px;
+            text-align: center;
+            padding-left: 5px;
+        }
+        .videosection .slider .second{
+            display:none;
+        }
+        /* end videos */
+        /* start blog */
+        .blog{
+            background-color: #131c2e;
+            width: 570px;
+        }
+        .blog .cards .card{
+            background-color: #131c2e;
+            border: none;
+            width: 500px;
+            margin-left: 25px;
+            padding-left: 25px;
+        }
+        .blog .cards .card .card-body{
+            color: white;
+            padding: 0px;
+        }
+        .cards .card img{
+            padding-right: 5px;
+            padding-top: 5px;
+            height: 224px;
+        }
+        .cards .card-body .card-title{
+            font-size: 12px;
+            margin-bottom: 0px;
+        }
+        .cards .card-body .card-text1{
+            font-size: 20px;
+        }
+        .cards .card-body a{
+            text-decoration: none;
+            color: rgb(204, 23, 23) ;
+        }
+        /* end blog */
+        /* start footer */
+        footer{
+            background-color: rgb(29, 27, 27);
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 570px;
+        }
+        footer .fotsections{
+            padding-left: 0px;
+        }
+        footer .fotsections h3{
+            color: white;
+            padding-left: 13px;
+        }
+        .fotsections ul a{
+            text-decoration: none;
+            color: rgba(245, 245, 245, 0.74);
+            line-height: 3;
+            font-size: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .fotsections .contact p{
+            color: rgba(245, 245, 245, 0.74);
+        }
+        .fotsections .contact h6{
+            color: rgba(245, 245, 245, 0.904);
+        }
+        footer .fotsections .Matches{
+            padding-top: 3px;
+        }
+        footer .fotsections .Social{
+            padding-bottom: 40px;
+        }
+        footer .fotsections .subscribe p{
+            color: rgba(245, 245, 245, 0.74);
+        }
+        footer .fotsections .subscribe .email{
+            border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+            width: 240px;
+            padding-bottom: 10px;
+        }
+        footer .fotsections .subscribe .email input{
+            background: none;
+            border: none;
+            padding-left: 10px;
+        }
+        footer .fotsections .subscribe .email button{
+            background: none;
+            border: none;
+            color: white;
+        }
+        footer .fotsections .copyright{
+            color: rgba(245, 245, 245, 0.74);
+            width: 100%;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        footer .fotsections .copyright span{
+            color: #ee1e46;
+        }
+        /* end footer */
+}
+/* responsive for media betwwen 374 and 320 */
+@media (max-width:374px) and (min-width:320px){
+               /* start nav */
+               nav{
+                background-color: rgb(0, 0, 0);
+                width: 570px;
+                position: relative;
+            }
+            .contanier{
+                background-image: url(./photos/bg_3.jpg);
+                background-size: cover;
+                height: 120vh;
+                width: 570px;
+                padding-left: 15px;
+                padding-right: 15px;
+                opacity: 0.6;
+            }
+            .header ul li img{
+                padding-right: 60px;
+            }
+            .header ul li{
+                padding-top: 30px;
+                padding-right: 5px;
+            }
+            .header ul li a{
+                padding: 8px;
+                text-decoration: none;
+                color: rgb(209, 199, 199);
+            }
+            .header ul li .active{
+                border-bottom: 2px solid rgb(209, 199, 199);
+                padding-bottom: 2px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .text {
+                padding-top: 70px;
+                font-weight: 700;
+                color: rgb(209, 199, 199);
+            }
+            .text .world{
+                padding-right: 40px;
+                margin-bottom: 0px;
+                font-size: 50px;
+            
+            }
+            .text .event{
+                padding-right: 155px;
+                font-size: 50px;
+            }
+            .text .lorem-first{
+                margin-left: 260px;
+                padding-right: 50px;
+                text-align: left;
+                
+            }
+            .text .lorem-second{
+                margin-left: 260px;
+                padding-right: 105px;
+                text-align: left;
+            }
+            /* end nav */
+            /* start contanier */
+            .team-vs {
+                background-color: #0d0f13;
+                overflow: hidden;
+                border-radius: 10px;
+                width: 485px;
+                margin-left: 30px;
+                margin-top: -80px;
+                position: relative;
+            }
+            .team-vs .team1 .team-details a ,
+            .team-vs .team2 .team-details a{
+                text-decoration: none;
+                color: white;
+            }
+            .team-vs .team1 ,
+            .team-vs .team2 {
+                padding: 0px 30px 30px 30px;
+            }
+            .team-vs .team1 img{
+                margin-left: 50px;
+                width: 70px;
+            }
+            .team-vs .team2 img{
+                width: 100px;
+            }
+            .team-vs .team2{
+                clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+                background: #ee1e46;
+                padding-top: 15px;
+            }
+            /* end contanier */
+            /* start latestnews */
+            .title-section .heading {
+                color: #fff;
+                font-size: 20px;
+                position: relative;
+                margin-left: 200px;
+                padding-left: 20px;
+                border-left: 10px solid #ee1e46;
+            }
+            .no-gutters {
+                margin-right: 0;
+                margin-left: 0px;
+                width: 460px;
+                padding-left: 80px;
+            }
+            .latestnews .post-entry {
+                position: relative;
+                overflow: hidden;
+            }
+            .latestnews .post-entry .caption {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 2;
+                z-index: 1;
+            }
+            .latestnews .post-entry .caption .caption-inner {
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+                right: 30px;
+            }
+            .latestnews .post-entry .caption .caption-inner h3 {
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+            }
+            .latestnews .post-entry .author .texts h4,
+            .latestnews .post-entry .author .texts span {
+                margin: 0;
+                line-height: 1;
+                font-size: 14px;
+                color: #fff;
+            }
+            /* end latestnews */
+            /* start next match */
+            .next-match {
+                width: 570px;
+            }
+            .next-match  .hole{
+                border: 1px solid gray;
+                padding-left: 0;
+            }
+            .next-match .header h3{
+                color: white;
+                background-color: #ee1e46;
+                width: 283px;
+                padding: 15px 0px 15px 20px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .next-match .body img{
+                width: 90px;
+            }
+            .next-match .body span{
+                color: #fff;
+                background-color: #ee1e46;
+                margin-right: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 20px;
+                border-radius: 20px;
+            }
+            .next-match .body .firstf{
+                padding-top: 65px;
+            }
+            .next-match .body h3{
+                color: #fff;
+                padding-top: 20px;
+            }
+            .next-match .body .caption h6{
+                color:#ee1e46;
+                text-align: center;
+            }
+            /* end next match */
+            /* start videos */
+            .videosection{
+                background-color: #131c2e;
+                width: 570px;
+            }
+            .videosection .no-gutters {
+                margin-right: 0;
+                margin-left: 0;
+                width: 500px;
+                padding-left: 25px;
+            }
+            .videosection .button{
+                padding-right: 50px;
+            }
+            .videosection .button button{
+                color: white;
+                background-color: #0f1c38;
+                border: none;
+            }
+            .videosection .slider .first{
+                position: relative;
+                /* padding-left: 0px; */
+                /* padding-right: 0px; */
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .videosection .slider .first .image img{
+                background-color: #0d0f13;
+                opacity: 0.8;
+                /* margin-right: 20px; */
+                width: 118px;
+                height: 200px;
+            }
+            .videosection .slider .active{
+                display: block;
+            }
+            .videosection .slider .first .caption{
+                color: white;
+            }
+            .videosection .slider .first  .icon{
+                position: absolute;
+                bottom: 5px;
+                width: 100px;
+                font-size: 20px;
+                color: rgb(204, 23, 23);
+                padding-left: 10px;
+            }
+            .videosection .slider .first .caption p{
+                position: absolute;
+                bottom: 20px;
+                width: 105px;
+                font-size: 11px;
+                text-align: center;
+                padding-left: 5px;
+            }
+            .videosection .slider .second{
+                display:none;
+            }
+            /* end videos */
+            /* start blog */
+            .blog{
+                background-color: #131c2e;
+                width: 570px;
+            }
+            .blog .cards .card{
+                background-color: #131c2e;
+                border: none;
+                width: 500px;
+                margin-left: 25px;
+                padding-left: 25px;
+            }
+            .blog .cards .card .card-body{
+                color: white;
+                padding: 0px;
+            }
+            .cards .card img{
+                padding-right: 5px;
+                padding-top: 5px;
+                height: 224px;
+            }
+            .cards .card-body .card-title{
+                font-size: 12px;
+                margin-bottom: 0px;
+            }
+            .cards .card-body .card-text1{
+                font-size: 20px;
+            }
+            .cards .card-body a{
+                text-decoration: none;
+                color: rgb(204, 23, 23) ;
+            }
+            /* end blog */
+            /* start footer */
+            footer{
+                background-color: rgb(29, 27, 27);
+                padding-top: 50px;
+                padding-bottom: 50px;
+                width: 570px;
+            }
+            footer .fotsections{
+                padding-left: 0px;
+            }
+            footer .fotsections h3{
+                color: white;
+                padding-left: 13px;
+            }
+            .fotsections ul a{
+                text-decoration: none;
+                color: rgba(245, 245, 245, 0.74);
+                line-height: 3;
+                font-size: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .fotsections .contact p{
+                color: rgba(245, 245, 245, 0.74);
+            }
+            .fotsections .contact h6{
+                color: rgba(245, 245, 245, 0.904);
+            }
+            footer .fotsections .Matches{
+                padding-top: 3px;
+            }
+            footer .fotsections .Social{
+                padding-bottom: 40px;
+            }
+            footer .fotsections .subscribe p{
+                color: rgba(245, 245, 245, 0.74);
+            }
+            footer .fotsections .subscribe .email{
+                border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+                width: 240px;
+                padding-bottom: 10px;
+            }
+            footer .fotsections .subscribe .email input{
+                background: none;
+                border: none;
+                padding-left: 10px;
+            }
+            footer .fotsections .subscribe .email button{
+                background: none;
+                border: none;
+                color: white;
+            }
+            footer .fotsections .copyright{
+                color: rgba(245, 245, 245, 0.74);
+                width: 100%;
+                padding-right: 50px;
+                padding-left: 50px;
+            }
+            footer .fotsections .copyright span{
+                color: #ee1e46;
+            }
+            /* end footer */
+}
